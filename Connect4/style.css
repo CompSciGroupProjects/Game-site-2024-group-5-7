@@ -1,0 +1,47 @@
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 5px;
+    background-color: skyblue;
+    border-radius:15px;
+    width:500px;
+    align-content: center;
+    height:550px;
+}
+.grid-item {
+    background-color: white;
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin:5px;
+    height:75px;
+}
+#header
+{
+    text-align: center;
+}
+#player1
+{
+    text-align: left;
+}
+#player2
+{
+    text-align:left;
+}
+#winCondition
+{
+    text-align: center;
+    margin-top: 75px;
+}
+#resetButton
+{
+    height: 50px;
+    width:100px;
+    font-size:25px;
+
+
+}
