@@ -1,0 +1,18 @@
+.grid-container{
+    display: grid;
+    background-color: black;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 300px 300px 300px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.grid-item{
+    text-align: center;
+    display: block;
+    background-color: darksalmon;
+    border: 1px solid black;
+    font-size: 1000%;
+}
+.container-lg{
+    text-align: center;
+}
