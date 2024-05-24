@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm fixed-top ">
+    <div class="container-fluid">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-dark">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark">Rock Paper Scissors</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark">Tic Tac Toe</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark">Connect 4</a>
+            </li>
+        </ul>
+        <div><a class="navbar-brand text-dark">Nasiar N, Nick R, Jayson P</a>
+        </div>
+    </div>
+</nav>
+<div id="car" class="carousel slide pointer-event" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#car" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#car" data-bs-slide-to="1" class=""></button>
+        <button type="button" data-bs-target="#car" data-bs-slide-to="2" class=""></button>
+    </div>
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <img src="images/rps picture" alt="" class="d-block w-100">
+            <div class="carousel-caption bg-dark">
+                <h3><a href="RockPaperScissors">Rock Paper Scissors</a></h3>
+                <p class="carousel-caption text-danger">MAKE RULES</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/ttt picture" alt="">
+            <div class="carousel-caption bg-dark">
+                <h3><a href="TicTacToe">Tic Tac Toe</a></h3>
+                <p class="carousel-caption text-danger">MAKE RULES</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="insert c4" alt="" class="d-block w-100">
+            <div class="carousel-caption bg-dark">
+                <h3><a href="Connect4">Connect 4</a></h3>
+                <p class="carousel-caption text-danger">MAKE RULES</p>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#car" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon btn-dark"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#car" data-bs-slide="next">
+        <span class="carousel-control-next-icon btn-dark"></span>
+    </button>
+</div>
+</body>
+</html>
