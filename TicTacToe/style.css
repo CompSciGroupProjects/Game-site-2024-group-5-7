@@ -9,9 +9,10 @@
 .grid-item{
     text-align: center;
     display: block;
-    background-color: lightsteelblue;
-    border: 1px solid #020035;
+    background-color: #020035;
+    border: 1px solid lightsteelblue;
     font-size: 1000%;
+    color: lightsteelblue;
 }
 .container-lg{
     text-align: center;
@@ -27,4 +28,5 @@
     padding-bottom: .5rem;
     border-bottom: 5px solid #020035;
     border-top: 5px solid #020035;
+    margin-bottom: 50px;
 }
