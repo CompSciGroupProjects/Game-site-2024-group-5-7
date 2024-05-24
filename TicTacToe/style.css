@@ -16,3 +16,15 @@
 .container-lg{
     text-align: center;
 }
+.navbar {
+    background-color: lightsteelblue;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-bottom: 5px solid #020035;
+    border-top: 5px solid #020035;
+}
