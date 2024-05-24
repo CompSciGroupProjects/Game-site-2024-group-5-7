@@ -237,11 +237,11 @@ function switchPlayer()
     if(player%2 === 0)
     {
         document.getElementById("player2").style.backgroundColor = "red";
-        document.getElementById("player1").style.backgroundColor = "white";
+        document.getElementById("player1").style.backgroundColor = "lightsteelblue";
     }
     else {
         document.getElementById("player1").style.backgroundColor = "yellow"
-        document.getElementById("player2").style.backgroundColor = "white";
+        document.getElementById("player2").style.backgroundColor = "lightsteelblue";
     }
 }
 function checkTie() {
@@ -259,7 +259,7 @@ function win(winner)
     if(winner === "Player 1")
     {
         document.getElementById("player1").style.backgroundColor = "yellow";
-        document.getElementById("player2").style.backgroundColor = "white";
+        document.getElementById("player2").style.backgroundColor = "lightsteelblue";
         document.getElementById("winCondition").innerHTML = winner + " Wins!"
     }
 
@@ -267,7 +267,7 @@ function win(winner)
     else if(winner === "Player 2")
     {
         document.getElementById("player2").style.backgroundColor = "red";
-        document.getElementById("player1").style.backgroundColor = "white";
+        document.getElementById("player1").style.backgroundColor = "lightsteelblue";
         document.getElementById("winCondition").innerHTML = winner + " Wins!"
     }
     else if (winner === "Tie")
@@ -285,12 +285,12 @@ function reset()
     for (let row = 0; row < 6; row++) {
         for (let col = 0; col < 7; col++) {
             board[row][col] = null;
-            document.getElementById(row + "," + col).style.backgroundColor = "white";
+            document.getElementById(row + "," + col).style.backgroundColor = "lightsteelblue";
         }
     }
     // Reset the turn styling
     document.getElementById("player1").style.backgroundColor = "yellow";
-    document.getElementById("player2").style.backgroundColor = "white";
+    document.getElementById("player2").style.backgroundColor = "lightsteelblue";
 
 
     // Reset win condition message
