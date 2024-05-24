@@ -1,11 +1,12 @@
-
-
+.body
+{
+    background-color: #020035;
+}
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
     padding: 5px;
-    background-color: skyblue;
     border-radius:15px;
     width:500px;
     align-content: center;
