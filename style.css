@@ -13,3 +13,12 @@ body{
         border-bottom: 5px solid #020035;
         border-top: 5px solid #020035;
 }
+.class_img
+{
+        height:300px;
+        width:300px;
+}
+.card
+{
+        border-color: #020035;
+}
