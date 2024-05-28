@@ -278,21 +278,3 @@ function win(winner)
     }
     gameOver = true;
 }
-function reset()
-{
-    gameOver = false;
-    // Clear the board
-    for (let row = 0; row < 6; row++) {
-        for (let col = 0; col < 7; col++) {
-            board[row][col] = null;
-            document.getElementById(row + "," + col).style.backgroundColor = "lightsteelblue";
-        }
-    }
-    // Reset the turn styling
-    document.getElementById("player1").style.backgroundColor = "yellow";
-    document.getElementById("player2").style.backgroundColor = "lightsteelblue";
-
-
-    // Reset win condition message
-    document.getElementById("winCondition").innerHTML = "";
-}
