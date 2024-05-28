@@ -217,9 +217,6 @@ function checkarrs(elem) {
     return false;
 }
 function selectsquare(x){
-    if (turn > 9){
-        document.getElementById("player").innerHTML = "Tie.";
-    }
     if (!checkwinp1() && !checkwinp2()) {
         if (!checkarrs(x)) {
             if (turn % 2 === 1) {
@@ -232,6 +229,9 @@ function selectsquare(x){
                 if (checkwinp1()) {
                     document.getElementById("player").innerHTML = "Player 1 has won!";
                 }
+                if (turn > 9){
+                    document.getElementById("player").innerHTML = "Tie.";
+                }
             } else if (turn % 2 === 0) {
                 p2[p2c] = x;
                 p2c++;
@@ -241,6 +241,9 @@ function selectsquare(x){
                 document.getElementById("taken").innerHTML = ""
                 if (checkwinp2()) {
                     document.getElementById("player").innerHTML = "Player 2 has won!";
+                }
+                if (turn > 9){
+                    document.getElementById("player").innerHTML = "Tie.";
                 }
             }
         } else {
