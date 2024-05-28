@@ -229,7 +229,7 @@ function selectsquare(x){
                 if (checkwinp1()) {
                     document.getElementById("player").innerHTML = "Player 1 has won!";
                 }
-                if (turn > 9){
+                else if (turn > 9){
                     document.getElementById("player").innerHTML = "Tie.";
                 }
             } else if (turn % 2 === 0) {
@@ -242,7 +242,7 @@ function selectsquare(x){
                 if (checkwinp2()) {
                     document.getElementById("player").innerHTML = "Player 2 has won!";
                 }
-                if (turn > 9){
+                else if (turn > 9){
                     document.getElementById("player").innerHTML = "Tie.";
                 }
             }
