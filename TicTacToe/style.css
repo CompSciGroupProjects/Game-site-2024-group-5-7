@@ -9,12 +9,14 @@
 .grid-item{
     text-align: center;
     display: block;
-    background-color: lightsteelblue;
-    border: 1px solid #020035;
+    background-color: #020035;
+    border: 1px solid lightsteelblue;
     font-size: 1000%;
+    color: lightsteelblue;
 }
 .container-lg{
     text-align: center;
+    margin-top: 100px;
 }
 .navbar {
     background-color: lightsteelblue;
