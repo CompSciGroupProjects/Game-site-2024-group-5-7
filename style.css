@@ -2,12 +2,14 @@ body{
     background-color: #020035;
 }
 .navbar {
-    background-color: lightsteelblue;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+        background-color: lightsteelblue;
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        border-bottom: 5px solid #020035;
+        border-top: 5px solid #020035;
 }
