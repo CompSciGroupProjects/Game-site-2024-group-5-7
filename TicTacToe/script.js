@@ -264,29 +264,29 @@ let acc = 0;
 let turns = 1;
 function checkwinp(){
     for (let a = 0; a<ap.length; a++){
-        if (ap[a] === 1){
+        if (ap[a] === 10){
             for (let b = 0; b<ap.length; b++){
-                if (ap[b] === 2){
+                if (ap[b] === 20){
                     for (let c=0; c<ap.length; c++){
-                        if (ap[c] === 3){
+                        if (ap[c] === 30){
                             return true;
                         }
                     }
                 }
             }
             for (let d = 0; d<ap.length; d++){
-                if (ap[d] === 4){
+                if (ap[d] === 40){
                     for (let e=0; e<ap.length; e++){
-                        if (ap[e] === 7){
+                        if (ap[e] === 70){
                             return true;
                         }
                     }
                 }
             }
             for (let f = 0; f<ap.length; f++){
-                if (ap[f] === 5){
+                if (ap[f] === 50){
                     for (let g = 0; g<ap.length; g++){
-                        if (ap[g] === 9){
+                        if (ap[g] === 90){
                             return true;
                         }
                     }
@@ -294,11 +294,11 @@ function checkwinp(){
             }
         }
         for (let h = 0; h<ap.length; h++){
-            if (ap[h] === 2){
+            if (ap[h] === 20){
                 for (let i = 0; i<ap.length; i++){
-                    if (ap[i] === 5){
+                    if (ap[i] === 50){
                         for (let j = 0; j<ap.length; j++){
-                            if (ap[j] === 8){
+                            if (ap[j] === 80){
                                 return true;
                             }
                         }
@@ -307,20 +307,20 @@ function checkwinp(){
             }
         }
         for (let k = 0; k<ap.length; k++){
-            if (ap[k] === 3){
+            if (ap[k] === 30){
                 for (let l = 0; l<ap.length; l++){
-                    if (ap[l] === 6){
+                    if (ap[l] === 60){
                         for (let m = 0; m<ap.length; m++){
-                            if (ap[m] === 9){
+                            if (ap[m] === 90){
                                 return true;
                             }
                         }
                     }
                 }
                 for (let n = 0; n<ap.length; n++){
-                    if(ap[n] === 5){
+                    if(ap[n] === 50){
                         for (let o = 0; o<ap.length; o++){
-                            if (ap[o] === 7){
+                            if (ap[o] === 70){
                                 return true;
                             }
                         }
@@ -330,11 +330,11 @@ function checkwinp(){
         }
     }
     for (let p = 0; p<ap.length; p++){
-        if (ap[p] === 4){
+        if (ap[p] === 40){
             for (let q = 0; q<ap.length; q++){
-                if (ap[q] === 5){
+                if (ap[q] === 50){
                     for (let r = 0; r<ap.length; r++){
-                        if (ap[r] === 6){
+                        if (ap[r] === 60){
                             return true;
                         }
                     }
@@ -343,11 +343,11 @@ function checkwinp(){
         }
     }
     for (let s = 0; s<ap.length; s++){
-        if (ap[s] === 7){
+        if (ap[s] === 70){
             for (let t = 0; t<ap.length; t++){
-                if (ap[t] === 8){
+                if (ap[t] === 80){
                     for (let u = 0; u<ap.length; u++){
-                        if (ap[u] === 9){
+                        if (ap[u] === 90){
                             return true;
                         }
                     }
@@ -359,29 +359,29 @@ function checkwinp(){
 }
 function checkwinc(){
     for (let a = 0; a<ac.length; a++){
-        if (ac[a] === 1){
+        if (ac[a] === 10){
             for (let b = 0; b<ac.length; b++){
-                if (ac[b] === 2){
+                if (ac[b] === 20){
                     for (let c=0; c<ac.length; c++){
-                        if (ac[c] === 3){
+                        if (ac[c] === 30){
                             return true;
                         }
                     }
                 }
             }
             for (let d = 0; d<ac.length; d++){
-                if (ac[d] === 4){
+                if (ac[d] === 40){
                     for (let e=0; e<ac.length; e++){
-                        if (ac[e] === 7){
+                        if (ac[e] === 70){
                             return true;
                         }
                     }
                 }
             }
             for (let f = 0; f<ac.length; f++){
-                if (ac[f] === 5){
+                if (ac[f] === 50){
                     for (let g = 0; g<ac.length; g++){
-                        if (ac[g] === 9){
+                        if (ac[g] === 90){
                             return true;
                         }
                     }
@@ -389,11 +389,11 @@ function checkwinc(){
             }
         }
         for (let h = 0; h<ac.length; h++){
-            if (ac[h] === 2){
+            if (ac[h] === 20){
                 for (let i = 0; i<ac.length; i++){
-                    if (ac[i] === 5){
+                    if (ac[i] === 50){
                         for (let j = 0; j<ac.length; j++){
-                            if (ac[j] === 8){
+                            if (ac[j] === 80){
                                 return true;
                             }
                         }
@@ -402,20 +402,20 @@ function checkwinc(){
             }
         }
         for (let k = 0; k<ac.length; k++){
-            if (ac[k] === 3){
+            if (ac[k] === 30){
                 for (let l = 0; l<ac.length; l++){
-                    if (ac[l] === 6){
+                    if (ac[l] === 60){
                         for (let m = 0; m<ac.length; m++){
-                            if (ac[m] === 9){
+                            if (ac[m] === 90){
                                 return true;
                             }
                         }
                     }
                 }
                 for (let n = 0; n<ac.length; n++){
-                    if(ac[n] === 5){
+                    if(ac[n] === 50){
                         for (let o = 0; o<ac.length; o++){
-                            if (ac[o] === 7){
+                            if (ac[o] === 70){
                                 return true;
                             }
                         }
@@ -425,11 +425,11 @@ function checkwinc(){
         }
     }
     for (let p = 0; p<ac.length; p++){
-        if (ac[p] === 4){
+        if (ac[p] === 40){
             for (let q = 0; q<ac.length; q++){
-                if (ac[q] === 5){
+                if (ac[q] === 50){
                     for (let r = 0; r<ac.length; r++){
-                        if (ac[r] === 6){
+                        if (ac[r] === 60){
                             return true;
                         }
                     }
@@ -438,11 +438,11 @@ function checkwinc(){
         }
     }
     for (let s = 0; s<ac.length; s++){
-        if (ac[s] === 7){
+        if (ac[s] === 70){
             for (let t = 0; t<ac.length; t++){
-                if (ac[t] === 8){
+                if (ac[t] === 80){
                     for (let u = 0; u<ac.length; u++){
-                        if (ac[u] === 9){
+                        if (ac[u] === 90){
                             return true;
                         }
                     }
@@ -453,13 +453,13 @@ function checkwinc(){
     return false;
 }
 function checkarrs1p(elem) {
-    for (let z = 0; z < p1.length; z++) {
-        if (p1[z] === elem) {
+    for (let z = 0; z < ap.length; z++) {
+        if (ap[z] === elem) {
             return true;
         }
     }
-    for (let y = 0; y < p2.length; y++) {
-        if (p2[y] === elem) {
+    for (let y = 0; y < ac.length; y++) {
+        if (ac[y] === elem) {
             return true;
         }
     }
@@ -472,7 +472,7 @@ function pselect(x){
             ap[apc] = x;
             apc++;
             turns++;
-            document.getElementById(x.toString()).innerHTML = "X";
+            document.getElementById(x).innerHTML = "X";
             document.getElementById("sqtaken").innerHTML = "";
             if (checkwinp()) {
                 document.getElementById("winner").innerHTML = "Player has won!";
@@ -482,12 +482,14 @@ function pselect(x){
             }
             aipick();
         }
+        else{
+            document.getElementById("sqtaken").innerHTML = "Square is taken, select a new one."
+        }
     }
 }
 function aipick(){
     // ai part
-    let x2 = "s"
-    x2 += Math.random()*9+1;
+    let x2 = Math.random()*9+1;
     if (!checkarrs1p(x2)){
         ac[acc] = x2;
         acc++;
