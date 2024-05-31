@@ -32,3 +32,12 @@ body{
         width:350px;
         margin: 10px;
 }
+.btn
+{
+ background-color: #020035;
+}
+.btn:hover
+{
+        background-color: lightsteelblue;
+        color:black;
+}
