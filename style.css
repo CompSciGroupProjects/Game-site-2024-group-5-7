@@ -20,5 +20,24 @@ body{
 }
 .card
 {
-        border-color: #020035;
+        width:400px;
+        margin-top:50px;
+        border: 10px solid #020035;
+        height:365px;
+        background-color: lightsteelblue;
+}
+.card-img-top
+{
+        height:155px;
+        width:350px;
+        margin: 10px;
+}
+.btn
+{
+ background-color: #020035;
+}
+.btn:hover
+{
+        background-color: lightsteelblue;
+        color:black;
 }
